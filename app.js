@@ -19,7 +19,7 @@
     });
     const empData=mongoose.model('employeesdatas',EmpSchema);
 
-    mongoose.connect('mongodb+srv://manjukrishnamk12:lkmnjuhduyr@cluster0.ugqsacu.mongodb.net/EmployeeDB?retryWrites=true&w=majority')
+    mongoose.connect('mongodb+srv://manjukrishnamk12:Manju4010@cluster0.ugqsacu.mongodb.net/EmployeeDB?retryWrites=true&w=majority')
     .then(()=>{
         console.log('Connected to EmployeeDB');
     }).catch(()=>{
